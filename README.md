@@ -10,8 +10,6 @@ It's hard. It's always hard the first time you do something. Especially when you
 
 Reading articles & watching tutorials can help, but what's better than actually doing the stuff in a practice environment? This project aims at providing guidance & simplifying the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
 
-#### *If you're not comfortable with command line, [here are tutorials using GUI tools.]( #tutorials-using-other-tools )*
-
 #### *Read this in [other languages](translations/Translations.md).*
 
 [:bangladesh:](translations/README.bn.md)
@@ -69,16 +67,29 @@ Reading articles & watching tutorials can help, but what's better than actually 
 [🇱🇻](translations/README.lv.md)
 [GUJ](translations/README.guj.md)
 
+If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
 
+## Create an issue
+
+In this tutorial, you're going to be contributing to this repository by adding your name to [Contributors.md](Contributors.md)! Typically, when contributing to an open source repository, you'll want to create an issue first (Note: the lack of the feature you want to add is also considered an issue)
+<br/><br/>
+Create an issue by going to the Issues tab and clicking on `New Issue`.
+
+<img style="display: block" src="assets/issues.png" alt="create an issue" />
+
+Describe the problem or feature you want to add with as much detail as possible and submit the issue. Many repositories have issue templates, so make sure to follow that if one exists. In this case, the problem is that your name is missing from the contributors list!
+
+<img src="assets/issues2.png" alt="submit the issue" >
 
 <img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
 
-If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
-
 ## Fork this repository
 
-Fork this repository by clicking on the fork button on the top of this page.
+Next, fork this repository by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
+
+<br/>
+<br/>
 
 ## Clone the repository
 
@@ -93,6 +104,7 @@ git clone "url you just copied"
 ```
 where "url you just copied" (without the quote marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
+<br>
 <img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
 For example:
@@ -153,11 +165,13 @@ replacing `<add-your-branch-name>` with the name of the branch you created earli
 
 If you go to your repository on GitHub, you'll see a  `Compare & pull request` button. Click on that button.
 
-<img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
+<img style="display: block" src="assets/compare-and-pull.png" alt="create a pull request" />
+
+In the comment section, add the text `Fixes #<issue number>` where the issue number comes from the issue you created earlier (it should popup after typing the `#`). This will associate the pull request with that issue and automatically close the issue when the pull request is merged.
+
+<img style="display: block" src="assets/submit-pull-request.png" alt="submit pull request" />
 
 Now submit the pull request.
-
-<img style="float: right;" src="assets/submit-pull-request.png" alt="submit pull request" />
 
 Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
 
